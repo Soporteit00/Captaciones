@@ -1,0 +1,125 @@
+.container{
+    width: 85%;
+    height: 90%;
+    background-image: url("../../img/Page3/lineaahorro2.jpg");
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    margin-top: 1%;
+}
+
+.progress{
+    color: #0A2D72;
+}
+
+.alert{
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1%;
+  }
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.menu{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+}
+.footer{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: #0A2D72;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+}
+
+.right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+    font-size: 50px;
+    margin-left: 35%;
+    color: #0A2D72;
+    border: #fff;
+}
+
+
+.vline{
+    border-left: thick solid #000;
+    height:1%;
+    left: 33%;
+    position: absolute;
+}
+
+.card1{
+    border:  solid #0A2D72 ;
+    width: 70%;
+    background-color: antiquewhite;
+    
+}
+
+.card2{
+    border:  solid #0A2D72 ;
+    width: 30%;
+    background-color: antiquewhite;
+}
+
+.card3{
+    border:  solid #0A2D72 ;
+    width: 70%;
+    background-color: antiquewhite;
+}
+
+.btneA{
+    align-items: center;
+    margin-left: 95%;
+}
+
+.botones2{
+    margin-top: 45%;
+    margin-left: 15%;
+}
+.botones3{
+    margin-top: 15%;
+    margin-left: 15%;
+}

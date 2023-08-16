@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Page3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto+Condensed:ital@1&display=swap"     rel="stylesheet">
+    <title>Área de captaciones</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+          </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-6">
+        <p class="botones2 d-inline-flex gap-1">
+            <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-controls="multiCollapseExample1">Disponibles</a>
+            <button class="btneA btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">A término</button>
+          </p>
+
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card1 card-body">
+                  <h3 class="bi bi-dot"> <b>Amiguito</b></h3>  <br>
+                    <h3 class="bi bi-dot"><b>Gana diario</b></h3> <br>
+                    <div class="vline"></div><br>
+                    <p>Gana Diario <br> congregacional.</p>
+                    <div class="vline"></div><br>
+                    <p>Gana Diario <br> personal natural.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card2 card-body">
+                  <p><b>CDAT</b> </p> 
+                </div>
+              </div>
+            </div>
+        </div>
+      </div><br>
+
+      <h1><b>Nuestras líneas de ahorro</b></h1>
+
+      <br><br><br><br>
+        <div class="col-6">
+        <p class="botones3 d-inline-flex gap-1">
+            <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-controls="multiCollapseExample1">Contractual</a>
+            <button class="btneA btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4" id="botones">Permanentes</button>
+
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample3">
+                <div class="card1 card-body" >
+                  <h4 class="bi bi-dot"> <b>NAVI</b></h4><br>
+                  <h4 class="bi bi-dot"> <b>Mi capital futuro</b></h4><br>
+                  <h4 class="bi bi-dot"> <b>ATCR</b></h4><br>
+                  <h4 class="bi bi-dot"> <b>Exequial</b></h4><br>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample4">
+                <div class="card3 card-body" >
+                  <h3 class="bi bi-dot"> <b>P. Vivienda</b></h3><br>
+                  <h3 class="bi bi-dot"> <b>P. Mujer</b></h3><br>
+                  <h3 class="bi bi-dot"> <b>P. Beneficio social</b></h3><br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br><br>
+        </div>
+    </div>
+    </div>
+    <div class="alert bi bi-info-circle-fill" role="alert" style="background-color: #f9b515">Toca cada botón para leer la información.
+    </div>
+
+    <div class="botones">
+        <a href="../Page2/Page2.html" class="left bi bi-arrow-bar-left"></a>
+        <a href="../Page4/Page4.html"><button  class="right bi bi-arrow-bar-right" id="avanzarBtn" disabled></button></a>
+    </div>
+
+    <div class="footer">
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+          </div>
+    </div>
+
+
+    <script>
+      const botones = document.getElementById("botones");
+      const avanzarBtn = document.getElementById("avanzarBtn");
+    
+      botones.addEventListener("mouseover", function() {
+          avanzarBtn.disabled = false;
+      });
+    
+      botones.addEventListener("onmouseover", function() {
+          avanzarBtn.disabled = true;
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

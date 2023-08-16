@@ -1,0 +1,202 @@
+.alert{
+  width: 35%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 25px;
+}
+
+  .container{
+    width: 85%;
+    height: 90%;
+    /* background-image: url("../../img/Page3/lineasahorro.jpg"); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    margin-top: 1%;
+  }
+  
+  .progress{
+    color: #0A2D72;
+  }
+  
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0a0a0a;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+    
+  h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+
+  h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;  
+    margin-top: 15%;
+  }
+  
+  h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    /* background-color: antiquewhite; */
+  }
+  
+  h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  .menu{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+  }
+  .footer{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 8%;
+    color: #0A2D72;
+  }
+  
+  .botones{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-70%);
+  }
+  
+  .right{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-70%);
+    font-size: 50px;
+    margin-left: 35%;
+    color: #0A2D72;
+    border: #ffffff;
+  }
+
+  .card1 {
+    width: 20rem;
+    cursor: pointer;
+  }
+  
+  .content1 {
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background-color: rgb(127, 204, 240);
+    padding: 5em;
+    transform-style: preserve-3d;
+  }
+  
+  .card1:hover .content1 {
+    transform: rotateY(0.5turn);
+  }
+  
+  .front1,
+  .back1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .title1 {
+    transform: translateZ(5rem);
+    font-size: 3rem;
+  }
+  
+  .subtitle1 {
+    transform: translateZ(2rem);
+    font-size: 22px;
+  }
+  
+  .back1 {
+    transform: rotateY(0.5turn);
+    background-color: #009bff;
+  }
+  
+  .description1 {
+    transform: translateZ(3rem);
+    font-size:25px;
+  }
+  
+  /* -------------------------------------------- */
+
+  .page12{
+    width: 25rem;
+  }
+  
+  .card2 {
+    width: 25rem;
+    cursor: pointer;
+  }
+  
+  .content2 {
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background-color: rgb(127, 204, 240);
+    padding: 5em;
+    transform-style: preserve-3d;
+  }
+  
+  .card2:hover .content2 {
+    transform: rotateY(0.5turn);
+  }
+  
+  .front2,
+  .back2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .title2 {
+    transform: translateZ(5rem);
+    font-size: 3rem;
+  }
+  
+  .subtitle2 {
+    transform: translateZ(2rem);
+    font-size: 25rem;
+  }
+  
+  .back2 {
+    transform: rotateY(0.5turn);
+    background-color: #009bff;
+  }
+  
+  .description2 {
+    transform: translateZ(3rem);
+    font-size: 25px;
+  }
+  

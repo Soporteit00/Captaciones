@@ -1,0 +1,170 @@
+
+    .container{
+      width: 85%;
+      height: 90%;
+      /* background-image: url("../../img/Page3/lineasahorro.jpg"); */
+      background-position: top center;
+      background-size: contain;
+      background-attachment: fixed;
+      position:relative;
+      z-index: 1;
+      margin-top: 1%;
+    }
+    
+    .progress{
+      color: #0A2D72;
+    }
+    
+    p{
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #0a0a0a;
+      font-size: 35px;
+      text-align: center;
+    }
+    
+    h2{
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: center;
+    }
+    
+      
+    h6{
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: center;
+    }
+  
+    h3{
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: center;  
+      margin-top: 15%;
+    }
+    
+    h1{
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: center;
+      /* background-color: antiquewhite; */
+    }
+    
+    h4{
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: center;
+    }
+    
+    .menu{
+      width: 85%;
+      margin-left: 10%;
+      margin-top: 2%;
+      color: #0A2D72;
+    }
+    .footer{
+      width: 85%;
+      margin-left: 10%;
+      margin-top: 2%;
+      color: #0A2D72;
+    }
+    
+    .botones{
+      display: flex;
+      justify-content: center;
+      
+    }
+    
+    .alert{
+      width: 30%;
+      margin-left: 35%;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .left{
+      font-size: 50px;
+      margin-right: 75%;
+      color: #0A2D72;
+      position: absolute;
+      top: 30%;
+      transform: translateY(-70%);
+    }
+    
+    .right{
+      position: absolute;
+      top: 30%;
+      transform: translateY(-70%);
+      font-size: 50px;
+      margin-left: 35%;
+      color: #0A2D72;
+      border: #ffffff;
+    }
+  
+    .card1 {
+        width: 210px;
+        height: 510px;
+        border-radius: 4px;
+        display: flex;
+        gap: 5px;
+        padding: .4em;
+      }
+      
+      .card1 p {
+        height: 100%;
+        flex: 1;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all .5s;
+        border: 1px solid #0A2D72;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .card1 p:hover {
+        flex: 5;
+      }
+      
+      .card1 p span {
+        color: #0a0a0a;
+        min-width: 14em;
+        padding: .5em;
+        text-align: center;
+        transform: rotate(-90deg);
+        transition: all .5s;
+        text-transform: uppercase;
+        color: #ffffff;
+        letter-spacing: .1em;
+      }
+      
+      .card1 p:hover span {
+        transform: rotate(0);
+        color: #0a0a0a;
+      }
+
+      .logo1{
+        width: 20%;
+        margin-left: 2%;
+        margin-top: 25%;
+      }
+      .logo2{
+        width: 16%;
+        margin-left: 2%;
+        margin-top: 28%;
+      }
+      .logo3{
+        width: 14%;
+        margin-left: 2%;
+        margin-top: 15%;
+      }
+      .logo4{
+        width: 20%;
+        margin-left: 2%;
+        margin-top: 30%;
+      }
+      .logo5{
+        width: 17%;
+        margin-left: 2%;
+        margin-top: 25%;
+      }
+
+      .alert{
+        width: 50%;
+        margin-left: 25%;
+      }

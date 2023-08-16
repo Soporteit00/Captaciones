@@ -1,0 +1,178 @@
+.container{
+    width: 85%;
+    height: 90%;
+    /* background-image: url("../../img/Page3/lineasahorro.jpg"); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    margin-top: 1%;
+  }
+  
+  .progress{
+    color: #0A2D72;
+  }
+  
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0a0a0a;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+    
+  h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+
+  h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;  
+    margin-top: 15%;
+  }
+  
+  h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    /* background-color: antiquewhite; */
+  }
+  
+  h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  .menu{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+  }
+  .footer{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #0A2D72;
+  }
+  
+  .botones{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .alert{
+    width: 35%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+  .left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-70%);
+  }
+  
+  .right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-70%);
+    font-size: 50px;
+    margin-left: 35%;
+    color: #0A2D72;
+    border: #f2f2f2;
+  }
+
+  .logo14{
+    width: 100%;
+  }
+
+  .card1 {
+    position: relative;
+    width: 350px;
+    height: 311px;
+    color: #2e2d31;
+    background: #131313;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .temporary_text1 {
+    font-weight: bold;
+    font-size: 19px;
+    padding: 6px 12px;
+    color: #f8f8f8;
+  }
+  
+  .card_title1 {
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;  
+    font-size: 28px;
+  }
+  
+  .card_content1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+      /* edit the width to fit card */
+    width: 100%;
+    padding: 20px;
+    background: #f2f2f2;
+    border-top-left-radius: 20px;
+      /* edit here to change the height of the content box */
+    transform: translateY(140px);
+    transition: transform .25s;
+  }
+  
+  .card_content1::before {
+    content: '';
+    position: absolute;
+    top: -47px;
+    right: -45px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-175deg);
+    border-radius: 50%;
+    box-shadow: inset 48px 48px #f2f2f2;
+  }
+  
+  .card_title1 {
+    color: #131313;
+    line-height: 15px;
+  }
+  
+  .card_subtitle1 {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #f2f2f2;
+  }
+  
+  .card_description1 {
+    font-size: 22px;
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  
+  .card1:hover .card_content1 {
+    transform: translateY(0);
+  }
+  
+  .card1:hover .card_description1 {
+    opacity: 1;
+    transition-delay: .25s;
+  }
+  

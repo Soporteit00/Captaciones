@@ -1,0 +1,113 @@
+.container{
+    width: 85%;
+    height: 90%;
+    /* background-image: url("../../img/Page1/trabajoe.jpg"); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+}
+
+.progress{
+    color: #0A2D72;
+}
+
+.p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+
+}
+
+.menu{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+}
+.footer{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-60%);
+}
+
+.right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-60%);
+    font-size: 50px;
+    margin-left: 75%;
+    color: #0A2D72;
+}
+
+.card{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:330px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #0A2D72;
+    border-radius:15px;
+    margin-left: 15%;
+}
+
+.card-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.img1{
+   margin-left: 10%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo1{
+    width: 5%;
+}
+
+/* .vline{
+    border-left: thick solid #000;
+    height:90%;
+    left: 10%;
+    position: absolute;
+}
+
+.vline2{
+    border-right: thick solid #000;
+    height:90%;
+    margin-right: 18%;
+    position: absolute;
+} */

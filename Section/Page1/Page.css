@@ -1,0 +1,72 @@
+.container{
+    width: 85%;
+    height: 90%;
+    background-image: url("../../img/Page1/trabajoe.jpg");
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+}
+
+.progress{
+    color: #0A2D72;
+}
+
+.p{
+    font-family: 'Roboto Condensed', sans-serif;;
+    color: #0A2D72;
+    font-size: 25px;
+}
+
+
+.menu{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+}
+.footer{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: #0A2D72;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-60%);
+}
+
+.right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-60%);
+    font-size: 50px;
+    margin-left: 75%;
+    color: #0A2D72;
+}
+
+.card{
+    width: 85%;
+    height:90%;
+    max-width: 450px;
+    position: relative;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgb(100, 137, 255);
+    transition: 0.3s ease-in-out;
+    margin-left: 35%;
+    margin-top: 10%;
+}
