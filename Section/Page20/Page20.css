@@ -59,7 +59,6 @@
     .footer{
       width: 85%;
       margin-left: 10%;
-      margin-top: 2%;
       color: #0A2D72;
     }
     
@@ -78,30 +77,30 @@
 
     .left{
       font-size: 50px;
-      margin-right: 75%;
+      margin-right: 87%;
       color: #0A2D72;
       position: absolute;
-      top: 30%;
-      transform: translateY(-70%);
+      top: 40%;
+      transform: translateY(-60%);
     }
     
     .right{
       position: absolute;
-      top: 30%;
-      transform: translateY(-70%);
+      top: 40%;
+      transform: translateY(-40%);
       font-size: 50px;
-      margin-left: 35%;
+      margin-left:43%;
       color: #0A2D72;
-      border: #ffffff;
+      border: #fff;
     }
   
     .card1 {
         width: 210px;
-        height: 510px;
+        height: 481px;
         border-radius: 4px;
         display: flex;
-        gap: 5px;
-        padding: .4em;
+        gap: 4px;
+        padding: .3em;
       }
       
       .card1 p {
@@ -124,7 +123,7 @@
       .card1 p span {
         color: #0a0a0a;
         min-width: 14em;
-        padding: .5em;
+        padding: .4em;
         text-align: center;
         transform: rotate(-90deg);
         transition: all .5s;

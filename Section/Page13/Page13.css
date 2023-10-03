@@ -74,23 +74,24 @@
     
   }
   
+  
   .left{
     font-size: 50px;
-    margin-right: 75%;
+    margin-right: 87%;
     color: #0A2D72;
     position: absolute;
     top: 40%;
-    transform: translateY(-70%);
+    transform: translateY(-60%);
   }
   
   .right{
     position: absolute;
     top: 40%;
-    transform: translateY(-70%);
+    transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 35%;
+    margin-left:43%;
     color: #0A2D72;
-    border: #ffffff;
+    border: #fff;
   }
 
   .logo13{
@@ -144,7 +145,7 @@
     color: lightgray;
     transform: rotatex(180deg);
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
   }
   
   .lower-part1 {

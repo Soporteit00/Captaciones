@@ -106,26 +106,27 @@ body {
     
     .left{
       font-size: 50px;
-      margin-right: 75%;
+      margin-right: 87%;
       color: #0A2D72;
       position: absolute;
-      top: 30%;
-      transform: translateY(-70%);
+      top: 40%;
+      transform: translateY(-60%);
     }
     
     .right{
       position: absolute;
-      top: 30%;
-      transform: translateY(-70%);
+      top: 40%;
+      transform: translateY(-40%);
       font-size: 50px;
-      margin-left: 75%;
+      margin-left:87%;
       color: #0A2D72;
+      border: #fff;
     }
   
 
     .card1 {
-        width: 260px;
-        height: 264px;
+        width: 290px;
+        height: 224px;
         background: #ffffff;
         position: relative;
         display: flex;
@@ -134,7 +135,7 @@ body {
         overflow: hidden;
         border-radius: 20px;
         border: solid #797979;
-        margin-left: 10%;
+        margin-left: 8%;
       }
       
       .card1 p{

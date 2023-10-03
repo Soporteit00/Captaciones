@@ -65,7 +65,6 @@
   .footer{
     width: 85%;
     margin-left: 10%;
-    margin-top: 8%;
     color: #0A2D72;
   }
   
@@ -75,23 +74,24 @@
     
   }
   
+  
   .left{
     font-size: 50px;
-    margin-right: 75%;
+    margin-right: 87%;
     color: #0A2D72;
     position: absolute;
     top: 40%;
-    transform: translateY(-70%);
+    transform: translateY(-60%);
   }
   
   .right{
     position: absolute;
     top: 40%;
-    transform: translateY(-70%);
+    transform: translateY(-40%);
     font-size: 50px;
-    margin-left: 35%;
+    margin-left:42%;
     color: #0A2D72;
-    border: #ffffff;
+    border: #fff;
   }
 
   .card1 {
@@ -151,7 +151,7 @@
   }
   
   .card2 {
-    width: 25rem;
+    width: 30rem;
     cursor: pointer;
   }
   

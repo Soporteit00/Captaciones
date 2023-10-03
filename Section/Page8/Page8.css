@@ -60,7 +60,7 @@ h4{
 .footer{
     width: 85%;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
     color: #0A2D72;
 }
 
@@ -71,23 +71,24 @@ h4{
 }
 
 .left{
-    font-size: 50px;
-    margin-right: 75%;
-    color: #0A2D72;
-    position: absolute;
-    top: 30%;
-    transform: translateY(-60%);
+  font-size: 50px;
+  margin-right: 87%;
+  color: #0A2D72;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-60%);
 }
 
 .right{
-    position: absolute;
-    top: 30%;
-    transform: translateY(-60%);
-    font-size: 50px;
-    margin-left: 35%;
-    color: #0A2D72;
-    border: #fff;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  font-size: 50px;
+  margin-left:43%;
+  color: #0A2D72;
+  border: #fff;
 }
+
 
 
 .card1 {
@@ -141,7 +142,7 @@ h4{
   }
   
   .card1:hover:after {
-    content: "Intereses 2.0% E.A. Liquidación mensual capitalizable." ;
+    content: "Indefinido" ;
   }
 
   /* ------------------------------------ */
